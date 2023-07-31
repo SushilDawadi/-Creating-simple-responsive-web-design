@@ -1,3 +1,4 @@
+@import "colors";
 @media screen and (max-width: 820px) {
   .home3 {
     height: 130vh;
@@ -37,6 +38,74 @@
       a {
         margin: 0.5rem;
       }
+    }
+  }
+
+  .home > main {
+    align-items: center;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  .home2 {
+    height: 120vh;
+    flex-direction: column;
+    img {
+      width: 100%;
+    }
+    > div {
+      width: 100%;
+      > p {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .home3 {
+    height: 120vh;
+    > div {
+      text-align: center;
+      width: 100%;
+      border-radius: 0%;
+      > p {
+        padding: 5rem 2rem;
+        font-size: 0.9rem;
+      }
+    }
+  }
+  .home4 {
+    align-items: center;
+    > div {
+      border-radius: 0%;
+      width: 100%;
+      height: unset;
+    }
+  }
+  .contact {
+    height: 100vh;
+    > main {
+      padding: 1rem;
+      h1 {
+        margin: 1rem;
+      }
+      > form {
+        margin: 0;
+        > div {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  footer {
+    height: 50vh;
+    grid-template-columns: 1fr;
+    padding: 5rem;
+    margin-top: 4rem;
+
+    > div {
+      align-items: center;
     }
   }
 }
